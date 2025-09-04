@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>School Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <h2>Add School</h2>
+    <form id="addSchoolForm">
+        <input type="text" id="name" placeholder="School Name" required />
+        <input type="text" id="address" placeholder="Address" required />
+        <input type="number" id="latitude" placeholder="Latitude" step="any" required />
+        <input type="number" id="longitude" placeholder="Longitude" step="any" required />
+        <button type="submit">Add School</button>
+    </form>
+
+    <h2>Find Nearby Schools</h2>
+    <form id="getSchoolsForm">
+        <input type="number" id="userLat" placeholder="Your Latitude" step="any" required />
+        <input type="number" id="userLng" placeholder="Your Longitude" step="any" required />
+        <button type="submit">Get Schools</button>
+        <button type="button" id="getLocation">Use My Location</button>
+    </form>
+
+    <div class="results" id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
