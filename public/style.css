@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 300px;
+}
+
+input {
+    display: block;
+    margin: 8px 0;
+    padding: 6px;
+    width: 95%;
+}
+
+button {
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.school {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
