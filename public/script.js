@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3000";
+const API_BASE = "https://school-management-rvqa.onrender.com";
 
 // Add School
 document.getElementById("addSchoolForm").addEventListener("submit", async (e) => {
